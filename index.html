@@ -1,115 +1,328 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Chanelle Sanchez</title>
-
-<style>
-
-body{
-font-family:Arial,sans-serif;
-max-width:1100px;
-margin:auto;
-padding:40px;
-line-height:1.6;
-}
-
-h1{
-font-size:60px;
-}
-
-.hero{
-text-align:center;
-padding:80px 0;
-}
-
-.card{
-border:1px solid #ddd;
-padding:20px;
-margin:20px 0;
-border-radius:10px;
-}
-
-</style>
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chanelle Sanchez – Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="[fonts.googleapis.com](https://eur01.safelinks.protection.outlook.com/?url=https%3A%2F%2Ffonts.googleapis.com%2F&data=05%7C02%7Cchanelle.sanchez%40ensam.eu%7Ceade38f99b204010ec7308ded28a7798%7Ce034b9b077684b9691b2d8f039816ac1%7C0%7C0%7C639179689326737830%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=JAH0VFeAfapXjVBbSE3XZmdD6dItXQCH1HnJocOO008%3D&reserved=0)" />
+  <link href="[fonts.googleapis.com](https://eur01.safelinks.protection.outlook.com/?url=https%3A%2F%2Ffonts.googleapis.com%2Fcss2%3Ffamily%3DInter%3Awght%40400%3B500%3B600%3B700%26family%3DPlayfair%2BDisplay%3Awght%40600%26display%3Dswap&data=05%7C02%7Cchanelle.sanchez%40ensam.eu%7Ceade38f99b204010ec7308ded28a7798%7Ce034b9b077684b9691b2d8f039816ac1%7C0%7C0%7C639179689326783390%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=%2Fb1kH5FNa%2FIJQxecDlnY4Yh96xoSu%2FcLpiJZk3pdUh0%3D&reserved=0)" rel="stylesheet" />
 </head>
-
 <body>
 
-<div class="hero">
+  <!-- ========== NAVIGATION ========== -->
+  <nav class="navbar">
+    <div class="nav-brand">Chanelle Sanchez</div>
+    <ul class="nav-links">
+      <li><a href="#about">À propos</a></li>
+      <li><a href="#education">Formation</a></li>
+      <li><a href="#experience">Expériences</a></li>
+      <li><a href="#projects">Projets</a></li>
+      <li><a href="#skills">Compétences</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
 
-<h1>Chanelle Sanchez</h1>
+  <!-- ========== HERO ========== -->
+  <header class="hero" id="about">
+    <div class="hero-content">
+      <div class="hero-photo">
+        <img src="Photo/IMG_9922.png" alt="Photo de Chanelle Sanchez" />
+      </div>
+      <div class="hero-text">
+        <p class="hero-tagline">Étudiante Ingénieure</p>
+        <h1>Chanelle Sanchez</h1>
+        <p class="hero-subtitle">
+          <!-- CONTENU : About Me.docx -->
+          Passionnée par l'industrie et les nouvelles technologies, je suis actuellement élève-ingénieure à Arts et Métiers. Mon parcours allie rigueur scientifique et créativité.
+        </p>
+        <div class="hero-cta">
+          <a href="CV/CV_Francais/CV_Chanelle_Sanchez.pdf" class="btn btn-primary" download>Télécharger mon CV</a>
+          <a href="#contact" class="btn btn-outline">Me contacter</a>
+        </div>
+      </div>
+    </div>
+    <div class="hero-blob"></div>
+  </header>
 
-<p>
-Industrial Engineer | Artificial Intelligence |
-Supply Chain | Business Transformation
-</p>
+  <!-- ========== EDUCATION ========== -->
+  <section class="section" id="education">
+    <h2 class="section-title">Formation</h2>
+    <div class="card-grid">
 
-</div>
+      <article class="card">
+        <div class="card-logo">
+          <img src="Education/ArtsEtMetiers/logo_arts_et_metiers.png" alt="Arts et Métiers" />
+        </div>
+        <div class="card-body">
+          <h3>Arts et Métiers ParisTech</h3>
+          <p class="card-date">2023 – 2026</p>
+          <!-- CONTENU : Education_ENSAM.docx -->
+          <p>Diplôme d'ingénieur généraliste. Spécialisation en génie industriel et production.</p>
+        </div>
+      </article>
 
-<h2>About Me</h2>
+      <article class="card">
+        <div class="card-logo">
+          <img src="Education/AlbertSchool/Logo_albertschool_bleu.png" alt="Albert School" />
+        </div>
+        <div class="card-body">
+          <h3>Albert School</h3>
+          <p class="card-date">2024 – 2025</p>
+          <!-- CONTENU : Education_Albert.docx -->
+          <p>Double diplôme Data & Business. Formation en data science appliquée.</p>
+        </div>
+      </article>
 
-<p>
-Engineering student at Arts et Métiers,
-incoming Master in Leadership & Artificial Intelligence
-at Albert School.
-</p>
+      <article class="card">
+        <div class="card-logo">
+          <img src="Education/Francois1er/Logo_CPGE.png" alt="CPGE François 1er" />
+        </div>
+        <div class="card-body">
+          <h3>CPGE François 1er</h3>
+          <p class="card-date">2021 – 2023</p>
+          <!-- CONTENU : Education_CPGE.docx -->
+          <p>Classes préparatoires aux Grandes Écoles, filière PSI.</p>
+        </div>
+      </article>
 
-<h2>Education</h2>
+      <article class="card">
+        <div class="card-logo">
+          <img src="Education/SaintFrancois/Logo_Lycee.png" alt="Lycée Saint-François" />
+        </div>
+        <div class="card-body">
+          <h3>Lycée Saint-François</h3>
+          <p class="card-date">2018 – 2021</p>
+          <!-- CONTENU : Education_Lycee.docx -->
+          <p>Baccalauréat général, mention Très Bien.</p>
+        </div>
+      </article>
 
-<div class="card">
-<h3>Arts et Métiers</h3>
-<p>Engineering Degree</p>
-</div>
+    </div>
+  </section>
 
-<div class="card">
-<h3>Albert School</h3>
-<p>Master in Leadership & Artificial Intelligence</p>
-</div>
+  <!-- ========== EXPERIENCE ========== -->
+  <section class="section section-alt" id="experience">
+    <h2 class="section-title">Expériences Professionnelles</h2>
+    <div class="timeline">
 
-<h2>Experience</h2>
+      <article class="timeline-item">
+        <div class="timeline-logo">
+          <img src="Experiences_Professionnelles/EDF/EDF_Logo.png" alt="EDF" />
+        </div>
+        <div class="timeline-content">
+          <h3>EDF</h3>
+          <p class="card-date">Stage – 2025</p>
+          <!-- CONTENU : Experiences_EDF.docx -->
+          <p>Description de la mission chez EDF…</p>
+        </div>
+      </article>
 
-<div class="card">
-<h3>Prysmian Group</h3>
-<p>Supply Chain & Industrial Engineering</p>
-</div>
+      <article class="timeline-item">
+        <div class="timeline-logo">
+          <img src="Experiences_Professionnelles/Actemium R&D/logo-actemium.png" alt="Actemium" />
+        </div>
+        <div class="timeline-content">
+          <h3>Actemium – R&D</h3>
+          <p class="card-date">Stage – 2024</p>
+          <!-- CONTENU : Experiences_ActemiumRD.docx -->
+          <p>Recherche et développement sur des solutions industrielles…</p>
+        </div>
+      </article>
 
-<div class="card">
-<h3>Actemium</h3>
-<p>Industrial Test Bench Development</p>
-</div>
+      <article class="timeline-item">
+        <div class="timeline-logo">
+          <img src="Experiences_Professionnelles/Prysmian/Prysmian_Logo.png" alt="Prysmian" />
+        </div>
+        <div class="timeline-content">
+          <h3>Prysmian Group</h3>
+          <p class="card-date">Stage – 2024</p>
+          <!-- CONTENU : Experiences_Prsmn.docx -->
+          <p>Mission au sein du groupe leader mondial des câbles…</p>
+        </div>
+      </article>
 
-<h2>Projects</h2>
+      <article class="timeline-item">
+        <div class="timeline-logo">
+          <img src="Experiences_Professionnelles/Actemium ouvrier/logo-actemium.png" alt="Actemium" />
+        </div>
+        <div class="timeline-content">
+          <h3>Actemium – Ouvrier</h3>
+          <p class="card-date">Job d'été – 2023</p>
+          <!-- CONTENU : Experiences_ActemiumOuvrier.docx -->
+          <p>Travail opérationnel sur chantier industriel…</p>
+        </div>
+      </article>
 
-<div class="card">
-Supply Chain Digital Transformation
-</div>
+    </div>
+  </section>
 
-<div class="card">
-Parking Violation Prediction – Data Challenge
-</div>
+  <!-- ========== PROJECTS ========== -->
+  <section class="section" id="projects">
+    <h2 class="section-title">Projets</h2>
+    <div class="card-grid card-grid-projects">
 
-<div class="card">
-Industrial Test Bench
-</div>
+      <article class="card card-project">
+        <div class="card-body">
+          <span class="card-tag">Supply Chain</span>
+          <h3>Optimisation Supply</h3>
+          <!-- CONTENU : Projects 1.docx (1-ProjetSupply) -->
+          <p>Projet d'optimisation de la chaîne logistique…</p>
+        </div>
+      </article>
 
-<div class="card">
-V6 Engine Design
-</div>
+      <article class="card card-project">
+        <div class="card-body">
+          <span class="card-tag">Production</span>
+          <h3>Projet Production</h3>
+          <!-- CONTENU : Projects 2 Prod.docx -->
+          <p>Amélioration des flux de production…</p>
+        </div>
+      </article>
 
-<div class="card">
-Student Union Presidency
-</div>
+      <article class="card card-project">
+        <div class="card-body">
+          <span class="card-tag">Data</span>
+          <h3>Data Challenge</h3>
+          <!-- CONTENU : Projects3DataChall.docx -->
+          <p>Compétition data science – analyse prédictive…</p>
+        </div>
+      </article>
 
-<h2>Contact</h2>
+      <article class="card card-project">
+        <div class="card-body">
+          <span class="card-tag">Ingénierie</span>
+          <h3>Industrial Test Bench</h3>
+          <!-- CONTENU : Projet4TestBench.docx -->
+          <p>Conception d'un banc d'essai industriel…</p>
+        </div>
+      </article>
 
-<p>
-LinkedIn<br>
-Email<br>
-CV
-</p>
+      <article class="card card-project">
+        <div class="card-body">
+          <span class="card-tag">Mécanique</span>
+          <h3>Moteur V6</h3>
+          <!-- CONTENU : Projects5V6.docx -->
+          <p>Étude et modélisation d'un moteur V6…</p>
+        </div>
+      </article>
+
+      <article class="card card-project">
+        <div class="card-body">
+          <span class="card-tag">Associatif</span>
+          <h3>Association étudiante</h3>
+          <!-- CONTENU : Projects 1.docx (6-ProjetStudentAssociation) -->
+          <p>Gestion d'une association étudiante…</p>
+        </div>
+      </article>
+
+      <article class="card card-project">
+        <div class="card-body">
+          <span class="card-tag">Recherche</span>
+          <h3>TIPE</h3>
+          <!-- CONTENU : Projects 1.docx (7-ProjetTIPE) -->
+          <p>Travail d'initiative personnelle encadrée…</p>
+        </div>
+      </article>
+
+      <article class="card card-project">
+        <div class="card-body">
+          <span class="card-tag">Événementiel</span>
+          <h3>Gala ENSAM</h3>
+          <!-- CONTENU : 9-ProjetGala -->
+          <p>Organisation du gala annuel…</p>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ========== SKILLS ========== -->
+  <section class="section section-alt" id="skills">
+    <h2 class="section-title">Compétences</h2>
+    <div class="skills-container">
+      <!-- CONTENU : Skills.docx – adapte les catégories ci-dessous -->
+      <div class="skill-category">
+        <h3>Techniques</h3>
+        <ul class="skill-list">
+          <li><span class="skill-chip">Python</span></li>
+          <li><span class="skill-chip">SQL</span></li>
+          <li><span class="skill-chip">MATLAB</span></li>
+          <li><span class="skill-chip">SolidWorks</span></li>
+          <li><span class="skill-chip">Lean Manufacturing</span></li>
+        </ul>
+      </div>
+      <div class="skill-category">
+        <h3>Transversales</h3>
+        <ul class="skill-list">
+          <li><span class="skill-chip">Gestion de projet</span></li>
+          <li><span class="skill-chip">Travail en équipe</span></li>
+          <li><span class="skill-chip">Communication</span></li>
+        </ul>
+      </div>
+      <div class="skill-category">
+        <h3>Langues</h3>
+        <ul class="skill-list">
+          <li><span class="skill-chip">Français – Natif</span></li>
+          <li><span class="skill-chip">Anglais – Courant (C1)</span></li>
+          <li><span class="skill-chip">Espagnol – Intermédiaire</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== LEADERSHIP ========== -->
+  <section class="section" id="leadership">
+    <h2 class="section-title">Leadership & Engagement</h2>
+    <div class="card card-wide">
+      <div class="card-logo">
+        <img src="Leadership/Logo_Asso_ENSAM.png" alt="Association ENSAM" />
+      </div>
+      <div class="card-body">
+        <!-- CONTENU : Leadership.docx -->
+        <h3>Responsabilités associatives</h3>
+        <p>Vice-présidente de l'association XYZ…</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section class="section section-alt" id="contact">
+    <h2 class="section-title">Contact</h2>
+    <div class="contact-container">
+      <p class="contact-intro">Envie d'échanger ? N'hésite pas à me contacter.</p>
+      <!-- CONTENU : Contact.docx -->
+      <div class="contact-links">
+        <a href="mailto:chanelle.sanchez@email.com" class="contact-link">
+          <span class="contact-icon">✉️</span> chanelle.sanchez@email.com
+        </a>
+        <a href="[linkedin.com](https://eur01.safelinks.protection.outlook.com/?url=https%3A%2F%2Flinkedin.com%2Fin%2Fchanellesanchez&data=05%7C02%7Cchanelle.sanchez%40ensam.eu%7Ceade38f99b204010ec7308ded28a7798%7Ce034b9b077684b9691b2d8f039816ac1%7C0%7C0%7C639179689326828976%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=IZ9G4T71ShXNsM2myYYb%2B8ySBJ%2BvuJB5Rg%2F9nc%2FACMY%3D&reserved=0)" target="_blank" class="contact-link">
+          <span class="contact-icon">🔗</span> LinkedIn
+        </a>
+        <a href="[github.com](https://eur01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fgithub.com%2Fchanellesanchez&data=05%7C02%7Cchanelle.sanchez%40ensam.eu%7Ceade38f99b204010ec7308ded28a7798%7Ce034b9b077684b9691b2d8f039816ac1%7C0%7C0%7C639179689327187236%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=Td8SMNX4siJUk7KepRNguqHMRQfQouhOeFAM%2FJPsSE4%3D&reserved=0)" target="_blank" class="contact-link">
+          <span class="contact-icon">💻</span> GitHub
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <p>© 2026 Chanelle Sanchez · Fait avec passion</p>
+  </footer>
+
+  <script>
+    // Mobile nav toggle
+    const toggle = document.querySelector('.nav-toggle');
+    const navLinks = document.querySelector('.nav-links');
+    toggle.addEventListener('click', () => {
+      navLinks.classList.toggle('open');
+      toggle.classList.toggle('active');
+    });
+  </script>
 
 </body>
 </html>
