@@ -345,15 +345,15 @@ img {
 }
 
 .card-logo {
-  width: 140px;
-  height: 80px;
+  width: 150px;
+  height: 70px;
   display: flex;
   align-items: center;
   justify-content: center;
   background: var(--bg-primary);
   border-radius: var(--radius-sm);
   margin-bottom: 1rem;
-  padding: 0.5rem;
+  padding: 0.1rem;
 }
 
 .card-logo img {
