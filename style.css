@@ -349,10 +349,12 @@ img {
   transition: transform var(--transition), box-shadow var(--transition);
 }
 
+
 .card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 12px 40px var(--shadow);
+  transform: translateY(-15px);
+  box-shadow: 0 25px 60px rgba(0,0,0,0.25);
 }
+
 
 .card-logo {
   width: 150px;
