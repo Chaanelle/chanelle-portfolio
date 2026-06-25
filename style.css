@@ -658,3 +658,30 @@ img {
     border-radius:12px;
     margin-bottom:1rem;
 }
+
+.language-switch{
+  display:flex;
+  gap:0.5rem;
+  margin-bottom:1.5rem;
+}
+
+.lang-btn{
+  padding:0.5rem 1rem;
+  border:1px solid var(--border);
+  border-radius:50px;
+  background:white;
+  font-size:0.85rem;
+  font-weight:600;
+  transition:0.3s ease;
+}
+
+.lang-btn:hover{
+  border-color:var(--accent);
+}
+
+.lang-btn.active{
+  background:var(--accent);
+  color:white;
+  border-color:var(--accent);
+}
+
